@@ -1,0 +1,127 @@
+.root {
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff;
+}
+
+/* ---- вкладки: широкі «кнопки», активна - синя */
+.tab-pane > .tab-header-area {
+    -fx-padding: 8 10 4 10;
+}
+.tab-pane > .tab-header-area > .tab-header-background {
+    -fx-background-color: transparent;
+}
+.tab-pane > .tab-header-area > .headers-region > .tab {
+    -fx-background-color: #f3f4f6;
+    -fx-background-radius: 6;
+    -fx-border-color: #c9ccd1;
+    -fx-border-radius: 6;
+    -fx-padding: 6 0 6 0;
+    -fx-background-insets: 0;
+}
+.tab-pane > .tab-header-area > .headers-region > .tab:selected {
+    -fx-background-color: #0b6fd6;
+    -fx-border-color: #0b6fd6;
+}
+.tab-pane > .tab-header-area > .headers-region > .tab .tab-label {
+    -fx-text-fill: #1f2933;
+    -fx-font-size: 14px;
+}
+.tab-pane > .tab-header-area > .headers-region > .tab:selected .tab-label {
+    -fx-text-fill: white;
+}
+.tab-pane > .tab-header-area > .headers-region > .tab:focused {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+.tab-pane > .tab-content-area {
+    -fx-background-color: transparent;
+}
+
+/* ---- заголовки розділів */
+.section-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #111827;
+}
+.section-title-small {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #111827;
+}
+
+/* ---- таблиця */
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #c9ccd1;
+    -fx-border-radius: 4;
+}
+.table-view .column-header-background {
+    -fx-background-color: #eef1f5;
+}
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: #eef1f5;
+    -fx-border-color: #d5d9df;
+    -fx-border-width: 0 1 1 0;
+    -fx-size: 40px;
+}
+.table-view .column-header .label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f2933;
+}
+.table-view .table-row-cell {
+    -fx-cell-size: 38px;
+    -fx-background-color: #ffffff;
+}
+.table-view .table-row-cell:odd {
+    -fx-background-color: #ffffff;
+}
+.table-view .table-row-cell:selected {
+    -fx-background-color: #cfe3fa;
+}
+.table-view .table-cell {
+    -fx-border-color: #e3e6ea;
+    -fx-border-width: 0 1 1 0;
+    -fx-padding: 0 8 0 8;
+    -fx-alignment: center-left;
+}
+
+/* ---- форма */
+.form .label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #1f2933;
+}
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #c9ccd1;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-padding: 7 8 7 8;
+}
+.combo-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #c9ccd1;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}
+
+/* ---- кнопки */
+.button {
+    -fx-background-color: #f3f4f6;
+    -fx-background-radius: 6;
+    -fx-border-color: #c9ccd1;
+    -fx-border-radius: 6;
+    -fx-padding: 9 14 9 14;
+    -fx-text-fill: #1f2933;
+    -fx-cursor: hand;
+}
+.button:hover {
+    -fx-background-color: #e5e8ec;
+}
+.button.primary {
+    -fx-background-color: #0b6fd6;
+    -fx-border-color: #0b6fd6;
+    -fx-text-fill: white;
+}
+.button.primary:hover {
+    -fx-background-color: #095bb0;
+}
